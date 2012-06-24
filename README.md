@@ -1,12 +1,8 @@
 ie7-js
 ======
 
-A JavaScript library to make MSIE behave like a standards-compliant browser.
+Dean Edward's original code is from http://code.google.com/p/ie7-js/
 
-http://code.google.com/p/ie7-js/
+I have stripped down the code in the same way Integralist did in http://github.com/Integralist/Dean-Edwards--IE-7-and-8-and-9
 
-The origin branch is copied from SVN - http://code.google.com/p/ie7-js/source/checkout
-
-In the master branch, I have stripped down the code to only contain the css fixes. You can find the similar stuff in https://github.com/Integralist/Dean-Edwards--IE-7-and-8-and-9
-
-Also, I changed it to load css files asynchronously so that it does not block the js code. This fixed the notable performance issue for me.
+Plus, I changed it to load css files asynchronously so that it does not block. This fixed the notable performance issue for me.
